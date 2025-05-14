@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Student Suite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>Student Suite</h2>
+        </div>
+        <div class="user-profile">
+            <div class="avatar">M</div>
+            <span>Mandla</span>
+        </div>
+        <ul class="nav-links">
+            <li class="active"><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="#">Budget Tracker</a></li>
+            <li><a href="#">Pomodoro Timer</a></li>
+            <li><a href="#">Notes</a></li>
+            <li><a href="#" id="logout">Logout</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <header class="top-bar">
+            <h1>Dashboard</h1>
+        </header>
+
+        <div class="dashboard-grid">
+            <div class="widget">
+                <h3>Budget Summary</h3>
+                <div class="budget-summary">
+                    <p>Monthly Budget: <span>R1,200</span></p>
+                    <p>Remaining: <span class="positive">R750</span></p>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3>Pomodoro Timer</h3>
+                <div class="pomodoro-widget">
+                    <p>Ready for a study session?</p>
+                    <a href="#" class="btn btn-small">Start Timer</a>
+                </div>
+            </div>
+
+            <div class="widget">
+                <h3>Recent Notes</h3>
+                <div class="recent-notes">
+                    <ul>
+                        <li>Computer Science Notes</li>
+                        <li>Math Formulas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
